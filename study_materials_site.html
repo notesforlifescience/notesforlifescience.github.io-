@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biology & Life Sciences Study Materials</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f0f7f4;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2d5016 0%, #4a7c59 100%);
+            color: white;
+            padding: 2rem 1.5rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin-bottom: 0.5rem;
+            font-size: 2rem;
+        }
+        
+        header p {
+            color: #e8f5e9;
+            font-size: 1.1rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .ad-space {
+            background: #fff;
+            border: 2px dashed #81c784;
+            padding: 2rem;
+            text-align: center;
+            margin: 2rem 0;
+            color: #999;
+            border-radius: 8px;
+        }
+        
+        .support-banner {
+            background: #66bb6a;
+            color: white;
+            padding: 1.2rem;
+            text-align: center;
+            margin: 2rem 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .support-banner a {
+            color: #fff;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        
+        .intro-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            border-left: 5px solid #66bb6a;
+        }
+        
+        .intro-section h2 {
+            color: #2d5016;
+            margin-bottom: 1rem;
+        }
+        
+        .subjects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .subject-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-top: 4px solid #66bb6a;
+        }
+        
+        .subject-card h2 {
+            color: #2d5016;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #a5d6a7;
+            font-size: 1.5rem;
+        }
+        
+        .material-list {
+            list-style: none;
+        }
+        
+        .material-item {
+            padding: 1rem;
+            margin: 0.8rem 0;
+            background: #f1f8f4;
+            border-left: 4px solid #66bb6a;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 4px;
+        }
+        
+        .material-item:hover {
+            background: #e8f5e9;
+            transform: translateX(5px);
+            transition: all 0.3s ease;
+        }
+        
+        .download-btn {
+            background: #4caf50;
+            color: white;
+            padding: 0.6rem 1.2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+        
+        .download-btn:hover {
+            background: #388e3c;
+        }
+        
+        .upload-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            border-left: 5px solid #66bb6a;
+        }
+        
+        .upload-section h2 {
+            color: #2d5016;
+            margin-bottom: 1rem;
+        }
+        
+        footer {
+            background: #2d5016;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+        
+        .material-info {
+            flex-grow: 1;
+        }
+        
+        .material-name {
+            font-weight: bold;
+            color: #2d5016;
+            font-size: 1rem;
+        }
+        
+        .material-details {
+            font-size: 0.85rem;
+            color: #666;
+            margin-top: 0.25rem;
+        }
+        
+        .topic-tag {
+            display: inline-block;
+            background: #a5d6a7;
+            color: #1b5e20;
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            margin-top: 0.3rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🧬 Biology & Life Sciences Study Hub</h1>
+        <p>Raw study materials, notes, and resources for biology students</p>
+    </header>
+
+    <div class="container">
+        <!-- Intro Section -->
+        <div class="intro-section">
+            <h2>Welcome to Your Biology Study Resource!</h2>
+            <p>This is a collection of raw, unedited study materials covering various topics in Biology and Life Sciences. All materials are shared as-is to help students learn and revise. Feel free to browse, download, and share!</p>
+        </div>
+
+        <!-- Support Banner -->
+        <div class="support-banner">
+            ☕ Find these materials helpful? <a href="#" target="_blank">Support me on Ko-fi</a> or <a href="#" target="_blank">Buy me a coffee</a> to keep this free!
+        </div>
+
+        <!-- Ad Space -->
+        <div class="ad-space">
+            📢 Ad Space - Insert your Google AdSense code here
+        </div>
+
+        <!-- Study Materials by Topic -->
+        <div class="subjects">
+            <!-- Cell Biology -->
+            <div class="subject-card">
+                <h2>🔬 Cell Biology</h2>
+                <ul class="material-list">
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Cell Structure & Function Notes</div>
+                            <div class="material-details">PDF • 3.2 MB • Uploaded Nov 2024</div>
+                            <span class="topic-tag">Organelles</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Cell Division - Mitosis & Meiosis</div>
+                            <div class="material-details">PDF • 2.8 MB • Uploaded Nov 2024</div>
+                            <span class="topic-tag">Cell Cycle</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Membrane Transport Mechanisms</div>
+                            <div class="material-details">PDF • 1.5 MB • Uploaded Oct 2024</div>
+                            <span class="topic-tag">Transport</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Genetics -->
+            <div class="subject-card">
+                <h2>🧬 Genetics & Molecular Biology</h2>
+                <ul class="material-list">
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">DNA Structure & Replication</div>
+                            <div class="material-details">PDF • 2.4 MB • Uploaded Nov 2024</div>
+                            <span class="topic-tag">Molecular</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Mendelian Genetics Complete Notes</div>
+                            <div class="material-details">PDF • 3.1 MB • Uploaded Nov 2024</div>
+                            <span class="topic-tag">Inheritance</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Protein Synthesis - Transcription & Translation</div>
+                            <div class="material-details">PDF • 2.2 MB • Uploaded Oct 2024</div>
+                            <span class="topic-tag">Gene Expression</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Ecology -->
+            <div class="subject-card">
+                <h2>🌿 Ecology & Evolution</h2>
+                <ul class="material-list">
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Ecosystem Dynamics & Energy Flow</div>
+                            <div class="material-details">PDF • 2.7 MB • Uploaded Nov 2024</div>
+                            <span class="topic-tag">Ecosystems</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Evolution & Natural Selection</div>
+                            <div class="material-details">PDF • 3.5 MB • Uploaded Nov 2024</div>
+                            <span class="topic-tag">Evolution</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Population Ecology Notes</div>
+                            <div class="material-details">PDF • 1.8 MB • Uploaded Oct 2024</div>
+                            <span class="topic-tag">Populations</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Human Physiology -->
+            <div class="subject-card">
+                <h2>❤️ Human Physiology</h2>
+                <ul class="material-list">
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Circulatory System Complete</div>
+                            <div class="material-details">PDF • 3.8 MB • Uploaded Nov 2024</div>
+                            <span class="topic-tag">Systems</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Nervous System & Brain Function</div>
+                            <div class="material-details">PDF • 4.2 MB • Uploaded Nov 2024</div>
+                            <span class="topic-tag">Neuroscience</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Digestive System Anatomy & Physiology</div>
+                            <div class="material-details">PDF • 2.9 MB • Uploaded Oct 2024</div>
+                            <span class="topic-tag">Digestion</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Biochemistry -->
+            <div class="subject-card">
+                <h2>⚗️ Biochemistry</h2>
+                <ul class="material-list">
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Carbohydrates, Lipids & Proteins</div>
+                            <div class="material-details">PDF • 3.3 MB • Uploaded Nov 2024</div>
+                            <span class="topic-tag">Biomolecules</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Enzyme Kinetics & Mechanisms</div>
+                            <div class="material-details">PDF • 2.1 MB • Uploaded Nov 2024</div>
+                            <span class="topic-tag">Enzymes</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Metabolism - Glycolysis & Krebs Cycle</div>
+                            <div class="material-details">PDF • 2.6 MB • Uploaded Oct 2024</div>
+                            <span class="topic-tag">Metabolism</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Microbiology -->
+            <div class="subject-card">
+                <h2>🦠 Microbiology</h2>
+                <ul class="material-list">
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Bacterial Structure & Classification</div>
+                            <div class="material-details">PDF • 2.8 MB • Uploaded Nov 2024</div>
+                            <span class="topic-tag">Bacteria</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Viruses & Viral Infections</div>
+                            <div class="material-details">PDF • 2.3 MB • Uploaded Nov 2024</div>
+                            <span class="topic-tag">Virology</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Immunology Basics</div>
+                            <div class="material-details">PDF • 3.0 MB • Uploaded Oct 2024</div>
+                            <span class="topic-tag">Immunity</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Botany -->
+            <div class="subject-card">
+                <h2>🌱 Plant Biology (Botany)</h2>
+                <ul class="material-list">
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Photosynthesis Detailed Notes</div>
+                            <div class="material-details">PDF • 2.5 MB • Uploaded Nov 2024</div>
+                            <span class="topic-tag">Plant Physiology</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Plant Anatomy & Morphology</div>
+                            <div class="material-details">PDF • 3.6 MB • Uploaded Nov 2024</div>
+                            <span class="topic-tag">Structure</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Plant Reproduction & Life Cycles</div>
+                            <div class="material-details">PDF • 2.0 MB • Uploaded Oct 2024</div>
+                            <span class="topic-tag">Reproduction</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Zoology -->
+            <div class="subject-card">
+                <h2>🦎 Animal Biology (Zoology)</h2>
+                <ul class="material-list">
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Animal Classification & Taxonomy</div>
+                            <div class="material-details">PDF • 3.4 MB • Uploaded Nov 2024</div>
+                            <span class="topic-tag">Classification</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Vertebrate & Invertebrate Anatomy</div>
+                            <div class="material-details">PDF • 4.0 MB • Uploaded Nov 2024</div>
+                            <span class="topic-tag">Anatomy</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                    <li class="material-item">
+                        <div class="material-info">
+                            <div class="material-name">Animal Behavior & Ethology</div>
+                            <div class="material-details">PDF • 2.4 MB • Uploaded Oct 2024</div>
+                            <span class="topic-tag">Behavior</span>
+                        </div>
+                        <a href="#" class="download-btn">Download</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Another Ad Space -->
+        <div class="ad-space">
+            📢 Ad Space - Insert your Google AdSense code here
+        </div>
+
+        <!-- Upload Instructions -->
+        <div class="upload-section">
+            <h2>📤 Contribute Your Biology Materials!</h2>
+            <p><strong>Help fellow biology students by sharing your notes and study materials!</strong></p>
+            <p style="margin-top: 1rem;">Email your materials to: <strong>notesforlifescience@gmail.com</strong></p>
+            <p style="margin-top: 0.5rem; color: #666;">
+                Accepted: Handwritten notes (scanned), typed notes, diagrams, lab reports, summary sheets, research papers, revision materials - anything biology related!
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Biology & Life Sciences Study Hub | Empowering Biology Students Worldwide</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">All materials shared for educational purposes only</p>
+    </footer>
+</body>
+</html>
